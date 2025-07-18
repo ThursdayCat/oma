@@ -10,7 +10,7 @@ import Notification from './components/Notification'
 import Footer from './components/Footer'
 import './index.css'
 
-const baseUrl = 'http://localhost:3001/api/notes'
+const baseUrl = '/api/notes'
 
 const App = (props) => {
   const now = new Date()
