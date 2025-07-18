@@ -24,7 +24,7 @@ let notes = [
 ]
 
 app.get('/',(request, response) => {
-  response.send('<h1>Hello Wörld</h1>')
+  response.json(notes)
 })
 
 app.get('/api/notes',(request, response) => {
